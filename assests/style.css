@@ -2,10 +2,12 @@ h1{
     background-color: darkcyan;
     float: top-left;
     color: white;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 13.5px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 200px;
+    position: fixed;
+    top: 0;
     
     
     
@@ -17,19 +19,20 @@ ul ol{
     margin-right:-4px;
     padding:10px;
     border-right:1px solid white;
-    float: right;
+    float:right;
 }
 
 body{
-    margin:90px;
-    padding:90px;
+    
     float: bottom-left;
     background-color: #ffffff;
+   
     
 }
 img{
     margin: 10px;
     padding: 10px;
+    
 }
 h5{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -37,6 +40,10 @@ h5{
     padding 50px;
     font-size: 25px;
     color: #666666;
+    border-bottom-style: solid;
+    border-color: darkcyan;
+    
+   
 }
 p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -45,10 +52,21 @@ footer{
     background-color: #666666;
     margin: 20px;
     padding: 20px;
+    border-top-style: solid;
+    border-color: darkcyan;
+
 }
 nav{
     border-bottom-style: solid;
     border-color: #cccccc;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
 
 
