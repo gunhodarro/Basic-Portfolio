@@ -50,7 +50,8 @@ h5{
     font-size: 25px;
     color: darkcyan;
     border-bottom-style: solid;
-    border-bottom-color: #cccccc width: 100%;
+    border-bottom-color: #cccccc; 
+    width: 80%;
     text-align: left;
 }
 p{
@@ -65,8 +66,9 @@ footer{
     border-color: darkcyan;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 120%;
     height: 2.5rem;
+    margin-left: -20%;
     
 
 }
@@ -99,3 +101,115 @@ nav{
 header{
     width: 100% 100%;
 }
+h3{
+    margin: -20px 0px 0px 78px;
+    font-size: 25px;
+    color: darkcyan;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .column1 img {
+    float: left;
+    width: 30%;
+    margin-left: 50px;
+    display: inline-block;
+    margin-right: -35px;
+  }
+  .text-block {
+    position: absolute;
+    top: 480px;
+    left: 330px;
+    background-color: #666666;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 16%;
+    margin-left: -60px;
+    text-align: center;
+    font-size: 17.5px;
+  }
+  .djtext {
+    position: absolute;
+    top: 480px;
+    right: 492px;
+    background-color: #666666;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 16%;
+    margin-left: -60px;
+    text-align: center;
+    font-size: 17.5px;
+  }
+.headtext {
+position: absolute;
+    top: 750px;
+    left: 330px;
+    background-color: #666666;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 16%;
+    margin-left: -60px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .ipodtext {
+    position: absolute;
+    bottom: -130px;
+    left: 792px;
+    background-color: #666666;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 20.4%;
+    margin-left: -210px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .tvtext {
+    position: absolute;
+        bottom: -360px;
+        left: 330px;
+        background-color: #666666;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 16%;
+        margin-left: -60px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+ 
