@@ -140,13 +140,14 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   .column1 img {
-    float: left;
+    
     width: 30%;
     margin-left: 50px;
     display: inline-block;
     margin-right: -35px;
   }
   .text-block {
+    block-size: 10%;
     position: absolute;
     top: 480px;
     left: 330px;
@@ -157,24 +158,27 @@ input[type=text], select, textarea {
     width: 16%;
     margin-left: -60px;
     text-align: center;
-    font-size: 17.5px;
+    font-size: 30px;
+    
+    
   }
   .djtext {
+    block-size: 10%;
     position: absolute;
     top: 480px;
-    right: 492px;
+    right: 485px;
     background-color: #666666;
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 16%;
-    margin-left: -60px;
+    width: 20.5%;
+    margin: 6px;
     text-align: center;
-    font-size: 17.5px;
+    
+
   }
 .headtext {
-position: absolute;
-    top: 750px;
+    block-size: 10%;
+    position: absolute;
+    top: 730px;
     left: 330px;
     background-color: #666666;
     color: white;
@@ -183,11 +187,13 @@ position: absolute;
     width: 16%;
     margin-left: -60px;
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
+    background-size: 10%;
   }
   .ipodtext {
+    block-size: 10%;
     position: absolute;
-    bottom: -130px;
+    bottom: -144px;
     left: 792px;
     background-color: #666666;
     color: white;
@@ -196,11 +202,12 @@ position: absolute;
     width: 20.4%;
     margin-left: -210px;
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
   }
   .tvtext {
+    block-size: 10%;
     position: absolute;
-        bottom: -360px;
+        bottom: -370px;
         left: 330px;
         background-color: #666666;
         color: white;
@@ -209,7 +216,12 @@ position: absolute;
         width: 16%;
         margin-left: -60px;
         text-align: center;
-        font-size: 18px;
-      }
-
- 
+        font-size: 25px;
+  }
+  h4{
+      margin: 20px 20px 20px 20px;
+  }
+  h6 {
+      margin: 20px 10px 20px 10px;
+      font-size: 22px;
+  }
